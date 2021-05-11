@@ -30,16 +30,17 @@ const Header = () => (
 
         </p>
       </div>
-      <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
+      <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto lg:flex-row sm:flex-col`)}>
         <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
-            <Button primary modifier={'mr-4'} >Buy on pancakeswap</Button>
+            <Button primary modifier={'mr-4 sm:mb-4'} >Buy on pancakeswap</Button>
           </a>
         </Link>
 
+        <div className={tw(`sm:flex-row`)}>
         <Link href="https://charts.bogged.finance/?token=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
-            <Button  modifier={'mr-4'} >Chart</Button>
+            <Button  modifier={'mr-4 sm:mb-4'} >Chart</Button>
           </a>
         </Link>
 
@@ -48,6 +49,7 @@ const Header = () => (
             <Button  modifier={'mr-4'} >Join telegram</Button>
           </a>
         </Link>
+        </div>
       </div>
     </div>
 

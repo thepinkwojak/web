@@ -28,7 +28,7 @@ const Footer = () => {
           <div className={tw(`ml-auto`)}>
           <Link href="https://t.me/thepinkwojaktoken">
           <a target="_blank">
-            <Button  modifier={'mr-4'} >telegram</Button>
+            <Button  modifier={'mr-4 mb-2'} >telegram</Button>
           </a>
         </Link>
 
