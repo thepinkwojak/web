@@ -41,7 +41,7 @@ const Header = () => (
         </div>
 
 
-        <div className={tw(` flex md:flex-row sm:flex-col mt-4`)}>
+        <div className={tw(` flex flex-row  mt-4`)}>
         <Link href="https://charts.bogged.finance/?token=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
             <Button  modifier={'mr-4 sm:mb-4'} >View Chart</Button>
