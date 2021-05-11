@@ -68,7 +68,7 @@ const ListSection = () => (
                 <div className={tw(`px-4`)}>
                   <h3 className={tw(`my-4 text-xl font-semibold`)}>100M max single transaction</h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>
-                      You can only buy & sell a maximum 100M per transaction keeping the wales from dumping to hard on you.
+                      You can only buy & sell a maximum 100M per transaction keeping the whales from dumping to hard on you.
                   </p>
                 </div>
               </li>
