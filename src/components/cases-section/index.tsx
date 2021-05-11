@@ -41,11 +41,10 @@ const ParticleBg = () => {
               enable: false,
             },
             move: {
-              direction: `right`,
-              speed: 0.3,
+              speed: 3,
             },
             size: {
-              value: 50,
+              value: 85,
             },
             opacity: {
               anim: {
