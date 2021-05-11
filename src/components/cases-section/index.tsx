@@ -77,7 +77,7 @@ const CasesSection = () => (
         <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>We are all gonna make it</h1>
         <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank" className={tw('mx-auto pt-10')} style={{ display: 'block'}}>
-            <Button primary modifier={'mx-auto'} >Buy on pancakeswap</Button>
+            <Button primary modifier={'mx-auto'} >BUY ON PANCAKESWAP</Button>
           </a>
         </Link>
       </div>
