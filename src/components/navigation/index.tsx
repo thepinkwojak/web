@@ -13,10 +13,6 @@ type Link = {
   href: string;
 };
 
-const links = [
-
-];
-
 const secondaryLinks = [
   {
     label: `Contact sales`,
@@ -74,11 +70,11 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
 const MobileMenu = () => (
   <div className={tw(`md:hidden`)}>
     <div className={tw(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
-      {links.map((link: Link) => (
+      {/* {links.map((link: Link) => (
         <a href={link.href} className={tw(`text-gray-500 block px-3 py-2 text-base font-medium`)} key={link.label}>
           {link.label}
         </a>
-      ))}
+      ))} */}
     </div>
     <div className={tw(`pt-4 pb-3 border-t border-gray-400`)}>
       <div className={tw(`px-2 space-y-1`)}>
@@ -110,7 +106,7 @@ const Navigation = () => {
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
-                {links.map((link: Link) => (
+                {/* {links.map((link: Link) => (
                   <a
                     key={link.label}
                     href={link.href}
@@ -118,7 +114,7 @@ const Navigation = () => {
                   >
                     {link.label}
                   </a>
-                ))}
+                ))} */}
               </div>
             </div>
           </div>

@@ -46,24 +46,6 @@ const ParticleBg = () => (
   />
 );
 
-const articles = [
-  {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
-    image: `/images/case-1.webp`,
-    alt: `Proident pariatur est.`,
-  },
-  {
-    title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
-    image: `/images/case-2.webp`,
-    alt: `Proident pariatur est.`,
-  },
-  {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
-    alt: `Proident pariatur est.`,
-  },
-];
-
 const CasesSection = () => (
   <section>
     <div className={tw(`w-full bg-pink-600 relative`)}>
