@@ -86,7 +86,7 @@ const ListSection = () => (
                 <div className={tw(`px-4`)}>
                   <h3 className={tw(`my-4 text-xl font-semibold`)}>250M max wallet</h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>
-                    The is a maximum of 250M $PINK per wallet.
+                    There is a maximum of 250M $PINK per wallet.
                   </p>
                 </div>
               </li>
