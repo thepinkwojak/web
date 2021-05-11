@@ -14,7 +14,7 @@ const FeatureSection = () => (
           </p>
         </div>
         <div className={tw(`flex flex-wrap my-12`)}>
-          <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
+          <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8 flex flex-col`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-pink-500`)} />
               <div className={tw(`ml-4 text-xl`)}>Ownership renounced & No Pre-Sale</div>
