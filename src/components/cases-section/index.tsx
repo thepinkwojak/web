@@ -44,7 +44,7 @@ const ParticleBg = () => {
               speed: 3,
             },
             size: {
-              value: 85,
+              value: 65,
             },
             opacity: {
               anim: {
