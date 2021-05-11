@@ -50,7 +50,7 @@ const ListSection = () => (
                 <div className={tw(`px-4`)}>
                   <h3 className={tw(`my-4 text-xl font-semibold`)}>20,000,000,000 Supply</h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>
-                    Scarce supply.
+                  Limited supply. Completely deflationary!
                   </p>
                 </div>
               </li>
@@ -66,9 +66,9 @@ const ListSection = () => (
                   </span>
                 </div>
                 <div className={tw(`px-4`)}>
-                  <h3 className={tw(`my-4 text-xl font-semibold`)}>100M max single transaction</h3>
+                  <h3 className={tw(`my-4 text-xl font-semibold`)}>100M - Maximum single transaction</h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>
-                      You can only buy & sell a maximum 100M per transaction keeping the whales from dumping to hard on you.
+                  You can only buy & sell a maximum of 100M per transaction, keeping the whales from dumping on you.
                   </p>
                 </div>
               </li>
@@ -84,9 +84,9 @@ const ListSection = () => (
                   </span>
                 </div>
                 <div className={tw(`px-4`)}>
-                  <h3 className={tw(`my-4 text-xl font-semibold`)}>250M max wallet</h3>
+                  <h3 className={tw(`my-4 text-xl font-semibold`)}>250M - Max single wallet</h3>
                   <p className={tw(`text-gray-500 leading-loose`)}>
-                    There is a maximum of 250M $PINK per wallet.
+                  There is a maximum of 250M $PINK per wallet, effectively eliminating any potential whales. The biggest wallet can only ever own 1,3% of total supply. No more rugpulls!
                   </p>
                 </div>
               </li>

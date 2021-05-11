@@ -33,20 +33,20 @@ const Header = () => (
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto lg:flex-row sm:flex-col`)}>
         <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
-            <Button primary modifier={'mr-4 sm:mb-4'} >Buy on pancakeswap</Button>
+            <Button primary modifier={'mr-4 sm:mb-4'} >Buy on PancakeSwap</Button>
           </a>
         </Link>
 
         <div className={tw(`sm:flex-row`)}>
         <Link href="https://charts.bogged.finance/?token=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
-            <Button  modifier={'mr-4 sm:mb-4'} >Chart</Button>
+            <Button  modifier={'mr-4 sm:mb-4'} >View Chart</Button>
           </a>
         </Link>
 
         <Link href="https://t.me/thepinkwojaktoken">
           <a target="_blank">
-            <Button  modifier={'mr-4'} >Join telegram</Button>
+            <Button  modifier={'mr-4'} >Join Telegram</Button>
           </a>
         </Link>
         </div>

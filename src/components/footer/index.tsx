@@ -21,7 +21,7 @@ const Footer = () => {
       <div className={tw(`text-center w-full mb-20`)}>
         <span className={tw(`font-sans  text-4xl text-pink-500 block`)}>Wojak Index</span>
         {/** @ts-ignore */}
-        <div className={tw(`font-sans font-bold text-6xl text-pink-500 mt-2 block`)}>{index.pink_wojak_index}</div>
+        <div className={tw(`font-sans font-bold text-2xl text-pink-500 mt-2 block`)}>{index.pink_wojak_index}</div>
       </div>
       <div className={tw(`mb-14 flex items-center w-full text-center`)}>
           <h2 className={tw(`font-sans font-bold text-4xl`)}>join our community</h2>
