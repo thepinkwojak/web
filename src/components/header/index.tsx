@@ -30,23 +30,32 @@ const Header = () => (
 
         </p>
       </div>
-      <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto lg:flex-row sm:flex-col`)}>
+      <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto flex-col`)}>
+
+      <div className={tw(`sm:flex-row`)}>
         <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
             <Button primary modifier={'mr-4 sm:mb-4'} >Buy on PancakeSwap</Button>
           </a>
-        </Link>
+          </Link>
+        </div>
 
-        <div className={tw(`sm:flex-row`)}>
+
+        <div className={tw(` flex md:flex-row sm:flex-col mt-4`)}>
         <Link href="https://charts.bogged.finance/?token=0x96CCd249914576b78DBA996A51693124591415AC">
           <a target="_blank">
             <Button  modifier={'mr-4 sm:mb-4'} >View Chart</Button>
           </a>
         </Link>
-
         <Link href="https://t.me/thepinkwojaktoken">
           <a target="_blank">
             <Button  modifier={'mr-4'} >Join Telegram</Button>
+          </a>
+        </Link>
+
+        <Link href="https://discord.gg/r8Y4Cgzv#">
+          <a target="_blank">
+            <Button  modifier={'mr-4 sm:mb-4'} >Join Discord</Button>
           </a>
         </Link>
         </div>

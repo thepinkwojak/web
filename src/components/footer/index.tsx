@@ -36,8 +36,7 @@ const Footer = () => {
           </a>
         </Link>
 
-        <Link href="https://discord.gg/r8Y4Cgzv#
-">
+        <Link href="https://discord.gg/r8Y4Cgzv#">
           <a target="_blank">
             <Button  modifier={'mr-4'} >discord</Button>
           </a>
